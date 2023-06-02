@@ -1,0 +1,211 @@
+@media screen and (max-width: 415px){
+    .ancho_movil{
+        max-width: 380px;
+        margin: auto;
+    }
+
+    h1{
+        line-height: 40px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    
+    header{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .contactanos{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        width: 350px;
+    }
+
+    .contactanos i{
+        margin-bottom: 20px;
+    }
+
+    .redes{
+        width: 180px;
+        justify-content: space-between;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #iconomenu{
+        display: block;
+
+    }
+
+    .navegacion{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navegacion nav ul{
+        justify-content: space-evenly;
+    }
+
+    .navegacion nav ul li{
+        text-align: center;
+        width: 100%;
+    }
+
+    .navegacion nav ul a{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: #5820bc;
+        color: #ccc;
+    }
+
+    .informacion{
+        width: 100%;
+        top: 15%;
+        left: 0;
+        z-index: 2;
+        padding: 50px;
+    }
+
+    .boton{
+        margin-left: 150px;
+    }
+
+    .modalito{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .texto h1, h3{
+        text-align: center;
+    }
+
+    .texto2 figure{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .texto2 figure img{
+        width: 100%;
+    }
+
+    #contenedor_tabs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .menu_tabs{
+        margin-top: 20px;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+
+    .menu_tabs li{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .menu_tabs li a{
+        width: 100%;
+        text-align: center;
+    }
+
+    #contenedor_tabs article p{
+        width: 320px;
+        text-align: center;
+    }
+
+    .parallax{
+        background-position: -20px 50px;
+    }
+
+    .parallax h1{
+        top: 40%;
+        left: 50%;
+        font-size: 25px;
+    }
+
+    .parallax p{
+        top: 80%;
+        left: 45%;
+        font-size: 16px;
+        margin-left: 20px;
+        width: 250px;
+        font-weight: bold;
+    }
+
+    .curva p{
+        text-align: center;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .galeria{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .banner1, .banner2, .banner3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* .info10{
+        top: 0;
+    } */
+
+    #slider3{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border: 1px #ccc solid;
+    }
+
+    .flechitas{
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+
+    .viewport{
+        width: 100%;
+    }
+
+    .maestras{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .educadoras{
+        margin-bottom: 20px;
+    }
+
+    .galeria_grid{
+        grid-template: repeat(6, auto) / auto;
+        grid-template-areas: "foto1" "foto3" "foto5" "foto6" "foto2" "foto4";
+    }
+
+    .galeria_grid figure:hover img{
+        transform: scale(1);
+    }
+    
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer article{
+        margin-bottom: 30px;
+    }
+}

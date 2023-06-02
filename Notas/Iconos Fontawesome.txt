@@ -1,0 +1,23 @@
+<i class="fab fa-facebook-f"></i>
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-pinterest-p"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-google-plus-g"></i>
+
+<i class="fas fa-phone-alt"></i>
+
+<i class="fas fa-envelope"></i>  <i class="far fa-envelope"></i>
+
+<i class="fas fa-map-marker-alt"></i>
+
+<i class="fas fa-times-circle"></i>
+
+<i class="fas fa-chevron-up"></i> ---Flecha arriba
+
+<i class="fas fa-chevron-down"></i>  --Flecha abajo
+
+<i class="fas fa-arrows-alt-h"></i>  --Doble flecha
