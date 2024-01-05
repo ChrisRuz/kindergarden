@@ -179,9 +179,8 @@ header{
 
 .boton{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     cursor: pointer;
-    max-width: 250px;
     margin-left: 750px;
     font-size: 22px;
     color: white;
